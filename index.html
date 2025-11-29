@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Current Voice | Home</title>
+  <link rel='preconnect' href='https://cn.windfonts.com' crossorigin>
+  <link rel="stylesheet" crossorigin="anonymous" href="https://app.windfonts.com/api/css?family=wenfeng-twjybxxmt:wght@regular">
+  <!-- Chinese web font provided by Windfonts, please keep this license notice https://wenfeng.org/license -->
+  <link rel="icon" href="logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="loader"></div>
+  </div>
+  <div class="container">
+    <!-- Cover Section -->
+    <div class="cover-section">
+      <img src="https://picsum.photos/800/400" alt="Current Voice Web Title Pic">
+      <div class="subtitle">Operated by <a href="#" class="nav-item" target="_blank" rel="noopener noreferrer">Example Blog</a></div>
+    </div>
+
+    <!-- Scrolling Announcement -->
+    <div class="announcement-scroll">
+      <div id="announcement" class="announcement-content"></div>
+    </div>
+
+    <!-- Navigation Menu -->
+    <nav class="nav-menu">
+      <a href="index.html" class="nav-item active">Home</a>
+      <a href="submit.html" class="nav-item">Submit</a>
+      <a href="privacy.html" class="nav-item">Privacy</a>
+    </nav>
+
+    <hr>
+    <hr>
+    <br>
+          
+    <!-- Articles List -->
+    <div class="articles-list">
+      <article class="article-item">
+        <h2 class="article-title">
+          <a href="journal.html" class="nav-item">Sample Article Title 1</a>
+        </h2>
+        <div class="author-card">
+          <div class="author-info">
+            <h3>Author Name</h3>
+            <div class="author-bio">Category · Published on January 1, 2024</div>
+          </div>
+        </div>
+        <a href="journal.html" class="subtitle">
+          <p>
+            This is a sample excerpt of the article. It provides a brief introduction to the content and encourages readers to click through to read more.
+          </p>
+        </a>
+      </article>
+
+      <hr>
+      <hr>
+      <br>
+
+      <article class="article-item">
+        <h2 class="article-title">
+          <a href="journal.html" class="nav-item">Sample Article Title 2</a>
+        </h2>
+        <div class="author-card">
+          <div class="author-info">
+            <h3>Another Author</h3>
+            <div class="author-bio">Category · Published on February 15, 2024</div>
+          </div>
+        </div>
+        <a href="journal.html" class="subtitle">
+          <p>
+            This is another sample excerpt demonstrating how article previews would appear on the homepage.
+          </p>
+        </a>
+      </article>
+
+      <hr>
+      <hr>
+      <br>
+
+      <article class="article-item">
+        <h2 class="article-title">
+          <a href="journal.html" class="nav-item">Sample Article Title 3</a>
+        </h2>
+        <div class="author-card">
+          <div class="author-info">
+            <h3>Guest Writer</h3>
+            <div class="author-bio">Category · Published on March 10, 2024</div>
+          </div>
+        </div>
+        <a href="journal.html" class="subtitle">
+          <p>
+            This is a third sample excerpt showing the consistent formatting applied to all article previews.
+          </p>
+        </a>
+      </article>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="section">
+    <h2 class="section-title">About Current Voice</h2>
+    <p>
+      Current Voice is a non-profit, personally-operated literary light reading platform. We maintain a passion and respect for words, creating a pure reading and spiritual haven for literature enthusiasts.
+    </p>
+    <p>
+      As our core content platform, "Current Voice" online magazine collects various excellent literary works, including essays, poetry, fiction, scripts, documentary literature, and literary criticism. Here, you can encounter delicate life insights and profound reflections on the times, experiencing the power of words through light reading.
+    </p>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>© 2024 <a href="#" class="nav-item" target="_blank" rel="noopener noreferrer">Current Voice</a> <a href="#" class="nav-item" target="_blank" rel="noopener noreferrer">ICP License</a> <a href="#" class="nav-item" target="_blank" rel="noopener noreferrer">Contact</a></p>
+    <p>by Github<a href="https://github.com/FurYuenji" class="nav-item" target="_blank" rel="noopener noreferrer">FurYuenji</a></p>
+  </div>
+
+  <script>
+    // Preloader logic
+    window.addEventListener('load', function() {
+      document.querySelector('.preloader').classList.add('hidden');
+    });
+
+    // Note: To use the announcement API, you need to:
+    // 1. Register for an API key at a suitable service provider
+    // 2. Replace the URL and parameters below with your actual API endpoint
+    // 3. Adjust the response parsing to match your API's return format
+    fetch('https://api.example.com/announcement?key=YOUR_API_KEY')
+      .then(r => r.json())
+      .then(d => document.getElementById('announcement').textContent = d.message || 'Welcome to our platform!')
+      .catch(() => {});
+  </script>
+</body>
+</html>
