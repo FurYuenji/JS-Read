@@ -12,6 +12,11 @@ An independently developed static web template designed for literary enthusiasts
 
 ---
 
+## 项目预览 | Project Preview
+### 网址 | URL: [https://jinsheng.page.gd/](https://jinsheng.page.gd/)
+
+---
+
 ## 下载 | Download zip file
 ### 蓝奏云存储 | Download with woozooo
 [https://hotlove.lanzoul.com/iRbcb3cftbof](https://hotlove.lanzoul.com/iRbcb3cftbof) 密码 | Key: 0613
