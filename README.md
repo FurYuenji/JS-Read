@@ -12,6 +12,15 @@ An independently developed static web template designed for literary enthusiasts
 
 ---
 
+## 下载 | Download zip file
+### 蓝奏云存储 | Download with woozooo
+[https://hotlove.lanzoul.com/iRbcb3cftbof](https://hotlove.lanzoul.com/iRbcb3cftbof) 密码 | Key: 0613
+
+### 萌盘 | Download with moe e-disk
+[https://pan.moe/s/jkLvCD](https://pan.moe/s/jkLvCD)
+
+---
+
 ## 核心优势 | Core Advantages
 | 中文 | English |
 |---------|---------------------|
